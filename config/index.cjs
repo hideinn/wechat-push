@@ -21,9 +21,36 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
+      name: '梦梦',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'PDU28540T8jyu9u5mGpmWJ3ejH3xBybz2An4NlYB7',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0001',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '10-15',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '梦梦', year: '2002', date: '09-10',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '梦梦', year: '2002', date: '10-15',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2024', date: '01-03',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2024-01-06' },
+
+        
+        // 想要发送的人的名字
       name: 'TEST',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU28534TsMNRevxbsEWigIvNx8H3INebMp6QQciG',
+      id: 'PDU28534TqkoP88CqDVcnqWTS2GTMitqX8Jlippsb',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
