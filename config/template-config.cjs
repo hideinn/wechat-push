@@ -30,12 +30,16 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      朋友圈文案：{{moment_copyrighting.DATA}}
+      每日一句土味情话：{{earthy_love_words.DATA}}
 
       ---
       
       毒鸡汤：{{poison_chicken_soup.DATA}}
       
+      ---
+      
+      朋友圈文案：{{moment_copyrighting.DATA}}
+
       ---
     `
   },
