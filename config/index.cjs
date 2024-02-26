@@ -47,7 +47,7 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2024-01-06' },
 
         
-        // 想要发送的人的名字
+      // 想要发送的人的名字
       name: 'TEST',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'PDU28534TqkoP88CqDVcnqWTS2GTMitqX8Jlippsb',
