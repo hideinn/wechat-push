@@ -41,6 +41,10 @@ const TEMPLATE_CONFIG = [
       朋友圈文案：{{moment_copyrighting.DATA}}
 
       ---
+
+      {{note_en.DATA}}
+      {{note_ch.DATA}}
+      {{one_talk.DATA}}
     `
   },
   {
