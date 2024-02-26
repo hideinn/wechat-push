@@ -30,7 +30,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      每日一句土味情话：{{earthy_love_words.DATA}}
+      土味情话：{{earthy_love_words.DATA}}
 
       ---
       
@@ -43,8 +43,18 @@ const TEMPLATE_CONFIG = [
       ---
 
       {{note_en.DATA}}
+
+      ---
+      
       {{note_ch.DATA}}
+
+      ---
+      
       {{one_talk.DATA}}
+      
+      ---
+
+      
     `
   },
   {
